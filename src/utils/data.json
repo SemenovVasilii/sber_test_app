@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Слайд №1",
+        "description": "Всегда рядом",
+        "image": "https://i.yapx.ru/XRqDq.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Слайд №2",
+        "description": "Быть больше, чем просто банк",
+        "image": "https://i.yapx.ru/XRqDr.png"
+    },
+    {
+        "id": 3,
+        "title": "Слайд №3",
+        "description": "Одна подписка - много возможностей",
+        "image": "https://i.yapx.ru/XRqDu.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Слайд №4",
+        "description": "Мы помогаем расти и развиваться нашим коллегам",
+        "image": "https://i.yapx.ru/XRqDv.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Слайд №5",
+        "description": "Строить отношения, а не продавать продукт",
+        "image": "https://i.yapx.ru/XRqDw.jpg"
+    }
+]

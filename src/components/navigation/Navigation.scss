@@ -1,0 +1,99 @@
+.navigation {
+    margin-top: 20px;
+
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+
+    &__first {
+        background-color: white;
+    }
+
+    &__first:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    &__first:not(:hover) {
+        scale: 1;
+        transition: 0.4s;
+    }
+
+    &__previous {
+        background-color: white;
+    }
+
+    &__previous:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    &__previous:not(:hover) {
+        scale: 1;
+        transition: 0.4s;
+    }
+
+    &__start {
+        background-color: white;
+    }
+
+    &__start:focus {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+            -23px 0 20px -23px rgba(0, 0, 0, .8),
+            23px 0 20px -23px rgba(0, 0, 0, .8),
+            0 0 40px rgba(0, 0, 0, .1) inset;
+    }
+
+    &__start:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    &__start:not(:hover) {
+        scale: 1;
+        transition: 0.4s;
+    }
+
+    &__stop {
+        background-color: white;
+    }
+
+    &__stop:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    &__stop:not(:hover) {
+        scale: 1;
+        transition: 0.4s;
+    }
+
+    &__next {
+        background-color: white;
+    }
+
+    &__next:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    &__next:not(:hover) {
+        scale: 1;
+        transition: 0.4s;
+    }
+
+    &__last {
+        background-color: white;
+    }
+
+    &__last:hover {
+        scale: 1.1;
+        transition: 0.4s;
+    }
+
+    &__last:not(:hover) {
+        scale: 1;
+        transition: 0.4s;
+    }
+}

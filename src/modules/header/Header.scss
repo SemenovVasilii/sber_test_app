@@ -1,0 +1,26 @@
+.header {
+    padding: 10px 30px;
+    background-color: #8BC34A;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: white;
+        font-size: 28px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    &__git:hover {
+        scale: 1.1;
+        transition: 0.5s;
+    }
+
+    &__git:not(:hover) {
+        scale: 1;
+        transition: 0.5s;
+    }
+}
